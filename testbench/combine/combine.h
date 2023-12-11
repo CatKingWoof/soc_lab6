@@ -1,0 +1,26 @@
+
+#define SIZE 10
+#define SIZE_MAT 4
+#define N 11
+
+int Array[SIZE] = {893, 40, 3233, 4267, 2669, 2541, 9073, 6023, 5681, 4622};
+
+	int A[SIZE_MAT*SIZE_MAT] = {0, 1, 2, 3,
+			0, 1, 2, 3,
+			0, 1, 2, 3,
+			0, 1, 2, 3,
+	};
+	int B[SIZE_MAT*SIZE_MAT] = {1, 2, 3, 4,
+		5, 6, 7, 8,
+		9, 10, 11, 12,
+		13, 14, 15, 16,
+	};
+	int result[SIZE_MAT*SIZE_MAT];
+
+
+
+int taps[N] = {0,-10,-9,23,56,63,56,23,-9,-10,0};
+int inputbuffer[N];
+int inputsignal[N] = {1,2,3,4,5,6,7,8,9,10,11};
+int outputsignal[N];
+
